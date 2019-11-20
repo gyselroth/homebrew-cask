@@ -6,7 +6,7 @@ cask 'balloon-desktop' do
   name 'balloon desktop client'
   homepage 'https://github.com/gyselroth/balloon-client-desktop'
 
-  pkg "Double-Click to Install Zulu balloon-desktop-1.1.1.pkg"
+  pkg "balloon-desktop-1.1.1.pkg"
 
   uninstall pkgutil: "balloon-desktop-1.1.1"
 end
